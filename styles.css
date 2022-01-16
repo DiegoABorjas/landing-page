@@ -53,8 +53,8 @@ button {
     border: #3882F6;
     font-size: 18px;
     color: #E5E7EB;
-    padding: 8px;
-    width: 120px;
+    padding: 12px;
+    width: 180px;
 }
 
 button:hover {
@@ -69,6 +69,8 @@ button:hover {
 .main-info {
     display: flex;
     flex-direction: column;
+    gap: 28px;
+    padding-bottom: 80px;
 }
 
 .info-header-text {
@@ -84,9 +86,79 @@ button:hover {
     justify-content: center;
     align-items: center;
     padding-left: 215px;
+    text-align: center;
 }
 
 .main-info img {
-    max-width: 70%;
+    max-width: 80%;
     border-radius: 5%;
+}
+
+.quote-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBE7EB;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-weight: 36px;
+    max-width: 600px;
+    color: #1F2937;
+}
+
+.quote-footer {
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    padding-right: 400px;
+}
+
+.signup-section {
+    background: #3882F6;
+    margin: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    gap: 400px;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: larger;
+}
+
+.signup-text {
+    margin-left: 100px;
+    color: #f8f9fa;
+    font-size: larger;
+}
+
+.signup-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    text-align: center;
+}
+
+.signup-button button {
+    border: 1px solid #f8f9fa;
+    font-size: 20px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 35px;
+    color: #f8f9fa;
 }
